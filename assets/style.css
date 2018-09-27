@@ -5,7 +5,9 @@ body{
 background: dimgray;display: block;
 }
 #wrapper{
-    margin: 300px 0px;
+     margin: 300px auto;
+    width: 1600px;
+    display: block;
 }
 #wrapper:after, #wrapper:before{
     content: "";display: table;clear: both;
@@ -26,7 +28,7 @@ background: dimgray;display: block;
     width: 100%;background: dimgray;
 }
 .container{
-    width: 1180px;min-height: 20px; margin: 0px auto;display: block;background-color: #FFFFFF;padding: 0px 210px;
+    width: 1180px;margin: 0px auto;display: block;background-color: #FFFFFF;padding: 0px 210px;
 }
 .topper{
     display: block;margin: 
