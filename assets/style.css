@@ -1,5 +1,6 @@
+*{margin: 0px;padding: 0px;}
 body{
-display: block;font-family: arial;margin: 0px;padding: 0px;
+display: block;font-family: arial;
 }
 #wrapper:after, #wrapper:before{
     content: "";display: table;clear: both;
