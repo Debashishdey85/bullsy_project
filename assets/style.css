@@ -222,7 +222,7 @@ color: #fff;
 }
     /*start portfolio_b css*/
 .portfolio_b{
-   background: #F8F8F8;display: block;
+   background: #F8F8F8;display: block;border-top: 1px solid #E6E6E6;
 }
 .portfolio_b .portfolio_heading{
     margin: 50px 0px;display: block;
@@ -275,7 +275,7 @@ color: #fff;
 }
    /*start portfolio_c css*/
 .portfolio_c{
-   background: #F8F8F8;display: block;
+   background: #F8F8F8;display: block;border-top: 1px solid #E6E6E6;
 }
 .portfolio_c .portfolio_heading{
     position: relative;margin: 50px 0px;display: block;padding: 20px 0px;
@@ -330,7 +330,7 @@ color: #fff;
 }
     /*start portfolio_d css*/
 .portfolio_d{
-   background: #F8F8F8;display: block;
+   background: #F8F8F8;display: block;border-top: 1px solid #E6E6E6;
 }
 .portfolio_d .portfolio_heading{
     position: relative;margin: 50px 0px;display: block;padding: 20px 0px;
