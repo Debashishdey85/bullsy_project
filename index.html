@@ -2,37 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BULLSY</title>
-    <link rel="stylesheet" href="assets/style.css">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bullsy</title>
+    <!-- Font Awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet"> 
-   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:700" rel="stylesheet">  
+   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:700" rel="stylesheet">
+   <link rel="stylesheet" href="assets/style.css">  
 </head>
 <body>
-    <!--
-        <div class="container_all">
-            <div class="container">
-                
-            </div>
-        </div>
-     -->
-        <div id="top"></div>
-         <div class="container_all clearfix">
-            <div class="container">
-                <div class="topper">
-                    <div class="topper_left float_left">
-                        <div class="left_phone_icon float_left">
-                            <img src="assets/images/topper_phone_icon.png" alt="phone">
+  <div id="top"></div>
+     <!--Topper Html End-->
+       <div class="topper">
+        <div class="container">
+               <div class="topper_left float-left">
+                     <div class="left_phone_icon float-left">
+                        <img src="assets/images/topper_phone_icon.png" alt="phone">
                         </div>
-                         <div class="left_phone float_left">+565 975 658</div>
-                         <div class="left_email_icon float_left">
+                         <div class="left_phone float-left">+565 975 658</div>
+                         <div class="left_email_icon float-left">
                             <img src="assets/images/topper_mail_icon.png" alt="email">
                         </div>
-                         <div class="left_email float_left"><a href="#">info@premiumcoding.com</a>
+                         <div class="left_email float-left"><a href="#">info@premiumcoding.com</a>
                       </div>
                     </div>
-                    <div class="topper_right float_right">
+                    <div class="topper_right float-right d-none d-lg-block">
                         <ul>
                             <li><a href="#">MY ACCOUNT</a></li>
                             <li><a href="#">LOGIN</a></li>
@@ -42,21 +40,22 @@
                     </div>
                     <div class="clearfix"></div>
                 </div>
-            </div>
-        </div>
-       <div class="container_all header_bg clearfix">
+            </div><!--Topper Html End-->
+        <!--Header text aria-->
+           <div class="header text_aria">
             <div class="container">
-                <div class="header text_aria">
-                    <div class="mono float_left ">
-                        <div class="mono_text float_left">
-                            <h1>BULLSY</h1>
-                            <P>RUGGED SHOES STORE</P>
-                        </div>
-                        <div class="mono_icon float_left">
-                            <img src="assets/images/mono_icon.png" alt="mono">
-                        </div>
+                <div class="mono float-left ">
+                     <div class="mono_text float-left">
+                      <h1>BULLSY</h1>
+                          <P>RUGGED SHOES STORE</P>
+                           </div>
+                             <div class="mono_icon float-left">
+                           <img src="assets/images/mono_icon.png" alt="mono">
+                       </div>
                     </div>
-                    <div class="header_menu float_left">
+                   <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+                     <div class="collapse navbar-collapse" id="myMenuToggler">
+                       <div class="header_menu float-left mr-auto ml-3 d-none d-lg-block">
                         <ul>
                             <li><a href="#">HOME</a></li>
                             <li class="slesh">/</li>
@@ -66,278 +65,353 @@
                             <li class="slesh">/</li>
                             <li><a href="#">CONTACT US</a></li>
                         </ul>
+                      </div>
                     </div>
-                    <div class="cart float_right">
-                        <div class="cart_text float_left">
+                 </nav>
+                <div class="cart float-right d-none d-lg-block">
+                        <div class="cart_text float-left">
                             <p>10 items</p>
                             <a href="#">459.99 $</a>
-                        </div>
-                        <div class="cart_icon float_left">
+                         </div>
+                         <div class="cart_icon float-left">
                             <img src="assets/images/cart_logo.png" alt="cart">
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="fix container_all">
-            <div class="fix container">
+                     </div> 
+                   </div>
+                </div><!--Header text aria end-->
+               <!--Start Slider html-->
+            <div class="slide_aria port_bg">
+             <div class="container">
+               <div class="row">
                 <div class="slider">
                     <div class="slider_position">
                         <div class="slider_image">
-                            <img src="assets/images/slider_image.jpg" alt="sld">
+                            <img src="assets/images/slider_image.jpg" alt="sld" class="img-fluid">
                         </div>
-                        <div class="slider_text">
+                        <div class="slider_text d-none d-md-block">
                             <h1>SHOES</h1>
                             <h1>SNICKERS</h1>
                             <h1>BOOTS</h1>
                             <h1>RUGGEDNESS</h1>
-                        </div>
-                        <div class="slider_trans_image">
-                            <img src="assets/images/slider_trans_image.png" alt="trn">
+                          </div>
+                           <div class="slider_trans_image d-none d-md-block">
+                            <img src="assets/images/slider_trans_image.png" alt="trn" class="img-fluid">
                         </div>
                     </div>
-                </div>
+                 </div>
+              </div>
             </div>
-        </div>
-        <div class="fix container_all">
-            <div class="fix container">
+          </div><!--End Slider html-->
+        <!--Start Slider Bottom-->
+            <div class="container">
                 <div class="slider_bottom">
-                    <div class="shipping float_left">
+                   <div class="row">
+                       <div class="col-md-4">
+                        <div class="shipping">
                         <h1>FREE SHIPPING</h1>
                         <p>- on all orders above <span style="color: #F56D6B;">$99</span></p>
-                    </div>
-                    <div class="collection float_left">
-                        <h1>NEW SHOES COLLECTION</h1>
-                        <p>- brand new collection of <span style="color:#F56A67">Bulls Shoes</span></p>
-                    </div>
-                    <div class="guarantee float_left">
+                      </div>
+                   </div>
+                <div class="col-md-4">
+                   <div class="collection">
+                      <h1>NEW SHOES COLLECTION</h1>
+                        <p>- brand new collection of <span style="color:#F56A67">Bulls  Shoes</span></p>
+                    </div> 
+                  </div>
+                   <div class="col-md-4">
+                    <div class="guarantee">
                         <h1>MONEY BACK GUARANTEE</h1>
                         <p>- return policy on all orders within <span style="color:#F56A67">14 days</span></p>
                    </div>
-                 <div class="clearfix"></div>
-              </div> 
-            </div>
-          </div>
-          <!--start portfolio html-->
-        <div class="fix container_all port_bg">
-            <div class="fix container">
-               <div class="fix portfolio_a">
-                  <div class="fix portfolio_heading">
+                </div>
+              </div>
+            </div> 
+          </div><!--End Slider Bottom-->
+          <!--start portfolio_a html-->
+          <div class="portfolio_a port_bg">
+            <div class="container">
+              <div class="row">
+               <div class="portfolio_heading d-none d-lg-block">
                      <h1>OUR SOES CATEGORIES</h1>
                      <div class="image_thin">
-                          <img src="assets/images/heading_thin.png" alt="tn">
-                      </div>
-                      <div class="image_thick">
-                          <img src="assets/images/heading_thick.png" alt="tk">
-                      </div>
-                  </div>
-                   <div class="image_one float_left">
-                       <img src="assets/images/1.png" alt="one">
-                   </div>
-                   <div class="image_two float_left">
-                       <img src="assets/images/2.png" alt="two">
-                   </div>
-                   <div class="image_three float_left">
-                       <img src="assets/images/3.png" alt="three">
-                   </div>
-                   <div class="portfolio_image_bottom">
-                    <div class="para_one float_left">
+                          <img src="assets/images/heading_thin.png" alt="tn" class="img-fluid">
+                       </div>
+                       <div class="image_thick">
+                          <img src="assets/images/heading_thick.png" alt="tk" class="img-fluid">
+                        </div>
+                       </div>
+                     </div>
+                    <div class="row">
+                      <div class="col-md-4">
+                         <div class="image_one">
+                          <img src="assets/images/1.png" alt="one" class="img-fluid">
+                        </div>
+                       </div>
+                      <div class="col-md-4">
+                         <div class="image_two">
+                         <img src="assets/images/2.png" alt="two" class="img-fluid">
+                         </div> 
+                        </div>
+                        <div class="col-md-4">
+                       <div class="image_three">
+                       <img src="assets/images/3.png" alt="three" class="img-fluid">
+                    </div>
+                 </div>
+              </div>
+               <div class="portfolio_image_bottom">
+                  <div class="row">
+                    <div class="col-md-4">
+                       <div class="para_one">
                         <h1>SNICKERS</h1>
                         <p>Lorem ipsum dolor sit amet, consecte at justo 
                         eget lorem port titor tincid ipsum lor.</p>
-                        <span class="spn">View the Category</span>
+                        <a href="#"><span class="spn">View the Category</span></a>
                     </div>
-                    <div class="para_one float_left">
+                   </div>
+                   <div class="col-md-4">
+                        <div class="para_one">
                         <h1>RUNNING SHOES</h1>
                         <p>Lorem ipsum dolor sit amet, consecte at justo 
                         eget lorem port titor tincid ipsum lor.</p>
-                        <span class="spn">View the Category</span>
+                        <a href="#"><span class="spn">View the Category</span></a>
                     </div>
-                    <div id="solve" class="para_one float_left">
+                   </div>
+                   <div class="col-md-4">
+                       <div id="solve" class="para_one">
                         <h1>MOUNTAIN SHOES</h1>
                         <p>Lorem ipsum dolor sit amet, consecte at justo 
                         eget lorem port titor tincid ipsum lor.</p>
-                        <span class="spn">View the Category</span>
-                    <div class="clearfix"></div>
-                 </div>
-                 <div class="clearfix"></div>
-               </div>
-             </div>
-            </div>
-           </div>
-          <div class="fix container_all port_bg">
-            <div class="fix container">
-               <div class="fix portfolio_b">
-                  <div class="fix portfolio_heading">
+                        <a href="#"><span class="spn">View the Category</span></a>
+                     </div>
+                   </div>
+                 </div>           
+                </div>
+              </div>
+           </div><!--End portfolio_a html-->
+           <!--Start portfolio_b html--> 
+          <div class="fix portfolio_b port_bg">
+            <div class="container">
+               <div class="row">
+                  <div class="fix portfolio_heading d-none d-lg-block">
                       <h1>OUR LATEST ARRIVALS</h1>
-                      <div class="image_thin">
-                          <img src="assets/images/heading_thin.png" alt="tn">
+                       <div class="image_thin">
+                          <img src="assets/images/heading_thin.png" alt="tn" class="img-fluid">
+                          </div>
+                           <div class="image_thick">
+                          <img src="assets/images/heading_thick.png" alt="tk" class="img-fluid">
                       </div>
-                      <div class="image_thick">
-                          <img src="assets/images/heading_thick.png" alt="tk">
-                      </div>
+                     </div>
                   </div>
-                   <div class="image_four float_left">
-                       <img src="assets/images/4.png" alt="four">
-                   </div>
-                   <div class="image_five float_left">
-                       <img src="assets/images/5.png" alt="five">
-                   </div>
-                   <div class="image_six float_left">
-                       <img src="assets/images/6.png" assets/alt="six">
-                   </div>
-                   <div class="image_seven float_left">
-                       <img src="assets/images/7.png" alt="svn">
-                   </div>
-                   <div class="clearfix"></div>
-                   <div class="portfolio_image_bottom">
-                    <div class="para_two float_left">
+                  <div class="row">
+                    <div class="col-md-3">
+                     <div class="image_four">
+                       <img src="assets/images/4.png" alt="four" class="img-fluid">
+                         </div>
+                          </div>
+                             <div class="col-md-3">
+                             <div class="image_five">
+                               <img src="assets/images/5.png" alt="five" class="img-fluid">
+                               </div>
+                               </div>
+                               <div class="col-md-3">
+                               <div class="image_six">
+                               <img src="assets/images/6.png" assets/alt="six" class="img-fluid">
+                              </div>
+                           </div>
+                          <div class="col-md-3">
+                         <div class="image_seven">
+                       <img src="assets/images/7.png" alt="svn" class="img-fluid">
+                     </div>
+                    </div>
+                  </div>
+                 <div class="portfolio_image_bottom">
+                   <div class="row">
+                   <div class="col-md-3">
+                       <div class="para_two">
                         <p>Bullsy Shoes in white</p>
                         <span class="spn">$159.99</span>
-                        <h2>ADD TO CAR</h2>
+                        <a style="text-decoration: none" href="#"><h2>ADD TO CAR</h2></a>
                     </div>
-                    <div class="para_two float_left">
+                   </div>
+                   <div class="col-md-3">
+                       <div class="para_two">
                         <p>Row bullsy Shoes for winter</p>
                         <span class="spn">$329.49</span>
-                        <h2>VIEW OPTIONS</h2>
+                        <a style="text-decoration: none" href="#"><h2>VIEW OPTIONS</h2></a>
                     </div>
-                    <div class="para_two float_left">
+                   </div>
+                   <div class="col-md-3">
+                       <div class="para_two">
                         <p>Bullsy Snikers</p>
                         <span class="spn">$52.99</span>
-                       <h2>ADD TO CART</h2>
+                       <a style="text-decoration: none" href="#"><h2>ADD TO CAR</h2></a>
                     </div>
-                    <div class="para_two mrg float_left">
+                   </div>
+                   <div class="col-md-3">
+                       <div class="para_two mrg">
                         <p>Bullsy grey Snikers/Shoes</p>
                         <span class="spn">$79.59</span>
-                        <h2>VIEW OPTIONS</h2>
-                    </div>
-                    <div class="clearfix"></div>
-                 </div>
-              </div> 
-            </div>
-          </div>
-          <div class="fix container_all port_bg">
-            <div class="fix container">
-               <div class="fix portfolio_c text_aria">
-                  <div class="fix portfolio_heading">
-                      <h1>OUR SHOE CATEGORIES</h1>
-                      <div class="image_thin">
-                          <img src="assets/images/heading_thin.png" alt="tn">
+                        <a style="text-decoration: none" href="#"><h2>VIEW OPTIONS</h2></a>
                       </div>
-                      <div class="image_thick">
-                          <img src="assets/images/heading_thick.png" alt="tk">
-                      </div>
-                  </div>
-                   <div class="image_eight float_left">
-                       <img src="assets/images/8.png" alt="eight">
-                   </div>
-                   <div class="image_nine float_left">
-                       <img src="assets/images/9.png" alt="nine">
-                   </div>
-                   <div class="image_ten float_left">
-                       <img src="assets/images/10.png" alt="ten">
-                   </div>
-                   <div class="image_eleven float_left">
-                       <img src="assets/images/11.png" alt="elve">
-                   </div>
-                   <div class="clearfix"></div>
-                   <div class="portfolio_image_bottom">
-                    <div class="para_three float_left">
-                        <p>Bullsy running Snickers</p>
-                        <span class="spn">$159.99</span>
-                        <h2>ADD TO CAR</h2>
                     </div>
-                    <div class="para_three float_left">
-                        <p>Rough Hiking Shoes</p>
-                        <span class="spn">$329.49</span>
-                        <h2>VIEW OPTIONS</h2>
-                    </div>
-                    <div class="para_three float_left">
-                        <p>Waterproof Bullsy Snickers</p>
-                        <span class="spn">$52.99</span>
-                        <h2>ADD TO CAR</h2>
-                    </div>
-                    <div class="para_three mrg float_left">
-                        <p>Bullsy working Shoes</p>
-                        <span class="spn">$79.49</span>
-                        <h2>VIEW OPTIONS</h2>
-                    </div>
-                    <div class="clearfix"></div>
+                   </div>
                  </div>
                </div> 
-            </div>
-          </div>
-          <div class="fix container_all port_bg">
-            <div class="fix container">
-               <div class="fix portfolio_d">
-                  <div class="fix portfolio_heading">
-                      <h1>OUR SHOE CATEGORIES</h1>
-                      <div class="image_thin">
-                          <img src="assets/images/heading_thin.png" alt="tn">
-                      </div>
-                      <div class="image_thick">
-                          <img src="assets/images/heading_thick.png" alt="tk">
-                      </div>
-                  </div>
-                   <div class="image_twelve float_left">
-                       <img src="assets/images/12.png" alt="twlv">
-                   </div>
-                   <div class="image_thirteen float_left">
-                       <img src="assets/images/13.png" alt="thrtn">
-                   </div>
-                   <div class="image_fourteen float_left">
-                       <img src="assets/images/14.png" alt="furtn">
-                   </div>
-                   <div class="portfolio_image_bottom">
-                    <div class="para_four float_left">
-                        <h2>Extra rugged flip-flops will arrive soon</h2>
-                        <p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip
-                        as consectuni. Lor ipsum dolor sit amet, consec adi
-                        pis elit, sed diam nonumm nibh euised tincidunt.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                    <div class="para_four float_left">
-                        <h2>New models of Bullsy Snickers just arrived</h2>
-                        <p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip
-                        as consectuni. Lor ipsum dolor sit amet, consec adi
-                        pis elit, sed diam nonumm nibh euised tincidunt.</p><a href="#">Read More</a>   
-                     </div>
-                    <div class="para_four  mrg float_left">
-                        <h2>Extra rugged flip-flops will arrive soon</h2>
-                        <p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip
-                        as consectuni. Lor ipsum dolor sit amet, consec adi
-                        pis elit, sed diam nonumm nibh euised tincidunt.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                    <div class="clearfix"></div>
-                 </div>
-                 <div class="clearfix"></div>
-               </div> 
-            </div>
-          </div>
-         <div class="clearfix"></div>
-         <div class="container_all bottom_bg clearfix">
+            </div><!--End portfolio_b html-->
+            <!--Start portfolio_c html--> 
+          <div class="portfolio_c text_aria port_bg">
             <div class="container">
-                <div class="port_bottom">
-                    <h1>BULLSY - A RUGGtext_ariaED STORE FOR RUGGED PEOPLE</h1>
-                    <p>- read more about our store regulations and policy <span style="color:#F55856"> here.</span>Lorem ipsum dolor sit amet.</p>
+               <div class="row">
+                    <div class="portfolio_heading d-none d-lg-block">
+                      <h1>OUR SHOE CATEGORIES</h1>
+                      <div class="image_thin">
+                          <img src="assets/images/heading_thin.png" alt="tn">
+                              </div>
+                              <div class="image_thick">
+                                  <img src="assets/images/heading_thick.png" alt="tk">
+                              </div>
+                          </div>
+                         </div>
+                         <div class="row">
+                             <div class="col-md-3">
+                                <div class="image_eight">
+                               <img src="assets/images/8.png" alt="eight" class="img-fluid">
+                            </div>
+                             </div>
+                             <div class="col-md-3">
+                                  <div class="image_nine">
+                               <img src="assets/images/9.png" alt="nine" class="img-fluid">
+                             </div>
+                             </div>
+                             <div class="col-md-3">
+                                 <div class="image_ten">
+                               <img src="assets/images/10.png" alt="ten" class="img-fluid">
+                           </div>
+                             </div>
+                             <div class="col-md-3">
+                         <div class="image_eleven">
+                       <img src="assets/images/11.png" alt="elve" class="img-fluid">
+                      </div>
+                    </div>
+                 </div>
+                 <div class="portfolio_image_bottom">
+                   <div class="row">
+                       <div class="col-md-3">
+                           <div class="para_three">
+                                <p>Bullsy running Snickers</p>
+                                <span class="spn">$159.99</span>
+                                <h2>ADD TO CAR</h2>
+                                </div>
+                               </div>
+                               <div class="col-md-3">
+                                   <div class="para_three">
+                                <p>Rough Hiking Shoes</p>
+                                <span class="spn">$329.49</span>
+                                <h2>VIEW OPTIONS</h2>
+                             </div>
+                               </div>
+                               <div class="col-md-3">
+                                 <div class="para_three">
+                                <p>Waterproof Bullsy Snickers</p>
+                                <span class="spn">$52.99</span>
+                                <h2>ADD TO CAR</h2>
+                                </div>
+                                </div>
+                               <div class="col-md-3">
+                                 <div class="para_three mrg">
+                                <p>Bullsy working Shoes</p>
+                             <span class="spn">$79.49</span>
+                            <h2>VIEW OPTIONS</h2>
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+              </div> 
+           </div><!--End portfolio_c html-->
+          <!--Start portfolio_d html-->
+          <div class="portfolio_d port_bg">
+            <div class="container">
+               <div class="row">
+                   <div class="fix portfolio_heading d-none d-lg-block">
+                      <h1>OUR SHOE CATEGORIES</h1>
+                        <div class="image_thin">
+                          <img src="assets/images/heading_thin.png" alt="tn" class="img-fluid">
+                           </div>
+                           <div class="image_thick">
+                          <img src="assets/images/heading_thick.png" alt="tk" class="img-fluid">
+                      </div>
+                  </div>
+               </div>
+                 <div class="row">
+                     <div class="col-md-4">
+                         <div class="image_twelve">
+                          <img src="assets/images/15.jpg" alt="twlv" class="img-fluid">
+                        </div>
+                         </div>
+                        <div class="col-md-4">
+                         <div class="image_thirteen">
+                         <img src="assets/images/13.png" alt="thrtn" class="img-fluid">
+                       </div>
+                       </div>
+                     <div class="col-md-4">
+                    <div class="image_fourteen">
+                       <img src="assets/images/14.png" alt="furtn" class="img-fluid">
+                   </div>
+                 </div>
+               </div> 
+               <div class="portfolio_image_bottom">
+                   <div class="row">
+                     <div class="col-md-4">
+                        <div class="para_four">
+                        <h2>Extra rugged flip-flops will arrive soon</h2>
+                          <p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip
+                           as consectuni. Lor ipsum dolor sit amet, consec adi
+                           pis elit, sed diam nonumm nibh euised tincidunt.</p>
+                          <a href="#">Read More</a>
+                        </div>
+                       </div>
+                       <div class="col-md-4">
+                        <div class="para_four">
+                          <h2>New models of Bullsy Snickers just arrived</h2>
+                           <p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip
+                           as consectuni. Lor ipsum dolor sit amet, consec adi
+                           pis elit, sed diam nonumm nibh euised tincidunt.</p><a href="#">Read More</a>   
+                       </div>
+                       </div>
+                       <div class="col-md-4">
+                         <div class="para_four mrg">
+                        <h2>Extra rugged flip-flops will arrive soon</h2>
+                           <p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip
+                          as consectuni. Lor ipsum dolor sit amet, consec adi
+                          pis elit, sed diam nonumm nibh euised tincidunt.</p>
+                        <a href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div> 
+            </div><!--End portfolio_d html-->
+          <!--Start port_bottom html-->
+         <div class="port_bottom bottom_bg">
+             <div class="container">
+                <h1>BULLSY - A RUGGtext_ariaED STORE FOR RUGGED PEOPLE</h1>
+                 <p>- read more about our store regulations and policy <span style="color:#F55856"> here.</span>Lorem ipsum dolor sit amet.</p>
             </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="container_all footer_bg clearfix">
-         <div class="container">
-          <div class="footer">
-          <div class="mono float_left ">
-            <div class="mono_text float_left">
+          </div><!--End port_bottom html-->
+          <!--Start Footer html-->
+         <div class="footer footer_bg">
+           <div class="container">
+             <div class="row">
+               <div class="mono">
+                 <div class="mono_text float-left">
                 <h1>BULLSY</h1>
                 <P>RUGGED SHOES STORE</P>
               </div>
-              <div class="mono_icon float_left">
-                     <img src="assets/images/footer_icon.png" alt="mono">       
-                 </div>
-                </div>
-                    <div class="footer_menu float_left">
+              <div class="mono_icon float-left">
+                <img src="assets/images/footer_icon.png" alt="mono" class="img-fluid">       
+              </div>
+            </div>
+             <div class="footer_menu float-right d-none d-lg-block">
                         <ul>
                             <li><a href="#">HOME</a></li>
                             <li class="slesh">/</li>
@@ -348,43 +422,51 @@
                             <li><a href="#">CONTACT US</a></li>
                         </ul>
                     </div>
-                    <div class="footer_para float_left">
-                         <p>&#64;2018 copyright PREMIUMCODING // All rights reserved</p>
-                    </div>
-                    <div class="cart float_right">
-                       <div class="footer_icon_bg">
-                           <img src="assets/images/footer_cart_bg.png" alt="crtbg">
-                       </div>
-                        <div class="cart_icon float_left">
-                         <a href="#top"><img src="assets/images/footer_cart_icon.png" alt="cart"></a>
+                </div><!--End Footer html-->
+                  <!--Start Footer_para html-->
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="footer_para">
+                            <p>&#64;2018 copyright PREMIUMCODING // All rights reserved</p>
+                         </div>
+                        </div>
+                        <div class="col-md-4">
+                         <div class="cart float-right">
+                           <div class="footer_icon_bg">
+                             <img src="assets/images/footer_cart_bg.png" alt="crtbg" class="img-fluid">
+                         </div>
+                        <div class="cart_icon">
+                         <a href="#top"><img src="assets/images/footer_cart_icon.png" alt="cart" class="img-fluid"></a>
                      </div>
-                   </div>
-                   <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
-         <div class="container_all">
-           <div class="container">
-                <div class="footer_bottom">
-                    <div class="left float_left">
+                   </div> 
+                 </div>
+               </div>
+             </div>
+            </div><!--End Footer_para html-->
+            <!--Start Footer_bottom html-->
+          <div class="footer_bottom">
+            <div class="container">
+                <div class="left float-left">
                         <ul>
-                            <li><a href="#"><img src="assets/images/socio_icon_1.png" alt="1"></a></li>
-                            <li><a href="#"><img src="assets/images/socio_icon_2.png" alt="2"></a></li>
-                            <li class="lftm"><a href="#"><img src="assets/images/socio_icon_3.png" alt="3"></a></li>
-                            <li><a href="#"><img src="assets/images/socio_icon_4.png" alt="4"></a></li>
-                            <li><a href="#"><img src="assets/images/socio_icon_5.png" alt="5"></a></li>
+                            <li><a href="#"><img src="assets/images/socio_icon_1.png" alt="1" class="img-fluid"></a></li>
+                            <li><a href="#"><img src="assets/images/socio_icon_2.png" alt="2" class="img-fluid"></a></li>
+                            <li class="lftm"><a href="#"><img src="assets/images/socio_icon_3.png" alt="3" class="img-fluid"></a></li>
+                            <li><a href="#"><img src="assets/images/socio_icon_4.png" alt="4" class="img-fluid"></a></li>
+                            <li><a href="#"><img src="assets/images/socio_icon_5.png" alt="5" class="img-fluid"></a></li>
                         </ul>
-                    </div>
-                    <div class="right float_right">
-                        <a href="#">Designed by <span style="color:#F55856">
+                     </div>
+                      <div class="right float-right">
+                        <a href="#">Designed by <span style="color:#6323C9">
                             debashishdey85.com 
                         </span>Web Design</a>
                     </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-     </body>
+                 </div>
+              </div><!--End Footer_bottom html-->
+		
+		<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
 
 
