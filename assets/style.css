@@ -1,11 +1,12 @@
 body{
 font-family: arial;
 }
-@media all and (min-width:1020px){
+@media all and (min-width:1040px){
     .container{
         width: 980px;
     }
 }
+/*--Topper css Here--*/
 .topper{
     display: block;margin: 
 }
@@ -45,9 +46,12 @@ font-family: arial;
     padding: 0px 20px;text-decoration: none;
     font-size: 14px;color: #463F3A;
 }
-.header{
-    background: #F5F6F1;padding: 80px 0px;
+/*--Header css Here--*/
+.header {
+    background: #F5F6F1;
+    padding: 55px 0px;
     display: block;
+    margin-bottom: 20px;
 }
 .header_bg{
     background: #F5F6F1;
@@ -117,8 +121,10 @@ font-family: arial;
     margin-left: 10px;
     margin-top: 10px;
 }
+/*--Slider css Here--*/
 .slider{
    margin-top: 25px;
+   padding: 0px 10px;
 }
 .slider_position{
     position: relative;
@@ -136,15 +142,17 @@ font-family: arial;
     color: #fff;
 }
 .slider_trans_image img{
-    position: absolute;display: block;top: 120px;right: 0px;
+    position: absolute;display: block;top: 140px;right: 0px;
 	opacity: .7;
 }
-.slider_bottom{
-    display: block;margin-top: 40px;padding-bottom: 40px;
+.slider_bottom {
+    display: block;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
 .slider_bottom .shipping{
     background: #F5F6F1;text-align: center;
-    padding: 30px 0px;margin-bottom: 20px;
+    padding: 15px 0px;margin-bottom: 20px;
 } 
 .slider_bottom .shipping h1{
     font-family: 'Oswald', sans-serif;font-size: 20px;
@@ -156,7 +164,7 @@ font-family: arial;
 }
 .slider_bottom .collection{
     background: #F5F6F1;text-align: center;
-    padding: 30px 0px;margin-bottom: 20px;
+    padding: 15px 0px;margin-bottom: 20px;
 } 
 .slider_bottom .collection h1{
     font-family: 'Oswald', sans-serif;font-size: 20px;
@@ -168,7 +176,7 @@ font-family: arial;
 }
 .slider_bottom .guarantee {
     background: #F5F6F1;
-    padding: 30px 0px;
+    padding: 15px 0px;
     text-align: center;
     margin-bottom: 20px; 
 }
@@ -189,8 +197,12 @@ font-family: arial;
     height: auto;
     margin-bottom: 25px;
 }
+.portfolio_a{
+    border-bottom: 1px solid #E6E6E6;
+}
  .portfolio_a .portfolio_heading{
-  margin: 30px 0px;padding: 20px 0px;
+    margin: 15px 0px;
+    padding: 15px 0px;
 }
  .portfolio_a .portfolio_heading h1 {
     font-family: 'Oswald', sans-serif;
@@ -213,12 +225,13 @@ font-family: arial;
 .portfolio_a .portfolio_image_bottom{
    margin-bottom: 20px;display: block;
 }
-.portfolio_a .portfolio_image_bottom .para_one{
-    background: #fff;padding: 30px 0px;
+.portfolio_a .portfolio_image_bottom .para_one {
+    background: #fff;
+    padding: 15px 7px;
 }
 .portfolio_a .para_one h1{
     font-family: 'Oswald', sans-serif;
-    font-size: 22px;
+    font-size: 19px;
     color: #463F3A;
 }
 .portfolio_a .para_one p{
@@ -228,14 +241,18 @@ font-family: arial;
 #solve{
     margin-right: -20px;
 }
-.portfolio_a .para_one .spn{
+.portfolio_a .para_one .spn {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 14px;color: #f93c3a;text-decoration: none;
-    padding: 10px 10px 10px 0px;display: block;
+    font-size: 12px;
+    color: #f93c3a;
+    text-decoration: none;
+    padding: -12px 10px 5px 0px;
+    display: block;
 }
     /*start portfolio_b css*/
-.portfolio_b .portfolio_heading{
-    margin: 30px 0px;padding: 20px 0px;
+.portfolio_b .portfolio_heading {
+    margin: 15px 0px;
+    padding: 15px 0px;
 }
  .portfolio_b .portfolio_heading h1{
     font-family: 'Oswald', sans-serif;
@@ -287,8 +304,12 @@ font-family: arial;
     margin-right: 0px; 
 }
    /*start portfolio_c css*/
-.portfolio_c .portfolio_heading{
-    margin: 30px 0px;padding: 20px 0px;
+.portfolio_c{
+    border-bottom: 1px solid #E6E6E6;
+}
+.portfolio_c .portfolio_heading {
+    margin: 15px 0px;
+    padding: 20px 0px;
 }
  .portfolio_c .portfolio_heading h1{
     font-family: 'Oswald', sans-serif;
@@ -341,8 +362,9 @@ font-family: arial;
     margin-right: 0px; 
 }
     /*start portfolio_d css*/
-.portfolio_d .portfolio_heading{
-     margin: 30px 0px;padding: 20px 0px;
+.portfolio_d .portfolio_heading {
+    margin: 10px 0px;
+    padding: 20px 0px;
 }
  .portfolio_d .portfolio_heading h1{
     font-family: 'Oswald', sans-serif;
@@ -477,29 +499,71 @@ font-family: 'Crimson Text', serif;color: #fff;
 }
 
 
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
 
+@media only screen and (max-width: 767px) {
+    .slider_text{
+        top: 55px;
+    }
+    .slider_text h1{
+        font-size: 20px;
+    }
+	.header .cart_icon img {
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+    .header .cart_text a{
+        font-size: 14px;
+    }   
+    .header .cart_text p{
+       font-size: 14px; 
+    }
+    .header .mono_text h1{
+       font-size: 30px; 
+    }
+    .header .mono_text p{
+      font-size: 8px;
+      margin-top: -12px;
+    }
+	.header .mono_icon img {
+    margin-left: 5px;
+    width: 18px;
+    height: 45px;
 
-
-
-
-
-
-
-
-
-
-/*
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto Condensed', sans-serif
-font-family: 'Oswald', sans-serif;
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-.portfolio_c .para_three h1{
-    font-family: 'Roboto Condensed', sans-serif;font-size: 27px;color: #83807D;padding: 8px 10px 10px 0px;font-weight: bold;display: block;
+    
+    
+    
+}
+    
 }
 
-#wrapper:after, #wrapper:before{
-    content: "";display: table;clear: both;
-}
 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
