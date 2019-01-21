@@ -394,10 +394,12 @@ font-family: arial;
     font-family: 'Roboto Condensed', sans-serif;font-size: 15px;color: #83807D;padding: 8px 0px 10px 0px;font-weight: bold;
 }
 .portfolio_d .portfolio_image_bottom .para_four p{
-    font-family: 'Roboto Condensed', sans-serif;font-size: 12px;color: #83807D;padding: 0px 0px 10px 0px;font-weight: bold;line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 12px;
+    color: #83807D;padding: 0px 0px 10px 0px;font-weight: bold;line-height: 18px;
 }
 .portfolio_d .portfolio_image_bottom .para_four a{
-    font-family: 'Roboto Condensed', sans-serif;font-size: 16px;color: #f93c3a;text-decoration: none;padding: 10px 10px 10px 0px;display: block;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 16px;color: #f93c3a;
+    text-decoration: none;padding: 10px 10px 10px 0px;display: block;
 }
 .portfolio_d .portfolio_image_bottom .mrg{
     margin-right: 0px;
@@ -509,7 +511,7 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
     .slider_text{
-        top: 55px;
+        top: 45px;
     }
     .slider_text h1{
         font-size: 20px;
