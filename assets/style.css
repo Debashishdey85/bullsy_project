@@ -539,11 +539,10 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
     .slider_text{
-        top: 45px;
+        top: 25px;
     }
     .slider_text h1{
         font-size: 20px;
-        margin-bottom; 25px;
     }
     .header .cart_icon img {
        width: 30px;
