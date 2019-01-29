@@ -1,5 +1,5 @@
 body{
-
+    font-family: arial;
 }
 @media all and (min-width:1040px){
     .container{
@@ -8,7 +8,6 @@ body{
 }
 html, body {
     overflow-x: hidden;
-    font-family: arial;
 }
 /*--Topper css Here--*/
 .topper{
