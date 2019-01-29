@@ -543,12 +543,13 @@ px      68    160    252    */
     }
     .slider_text h1{
         font-size: 20px;
+        margin-bottom; 25px;
     }
-	.header .cart_icon img {
-    width: 30px;
-    height: 30px;
-    margin-left: 5px;
-    margin-top: 5px;
+    .header .cart_icon img {
+       width: 30px;
+       height: 30px;
+       margin-left: 5px;
+       margin-top: 5px;
 }
     .header .cart_text a{
         font-size: 12px;
